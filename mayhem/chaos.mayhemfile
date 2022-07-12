@@ -1,0 +1,7 @@
+project: rust-gc
+target: chaos
+
+cmds:
+  - cmd: /chaos
+  - cmd: /chaos_no_inst @@
+    libfuzzer: false
